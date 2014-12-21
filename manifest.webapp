@@ -1,0 +1,42 @@
+{
+  "name": "KorKeyboard",
+  "description": "Official Gaia Korean Keyboard Clone.",
+  "version": "0.0.1",
+  "default_locale": "en-US",
+  "developer": {
+    "name": "BYUN Sangpil",
+    "url": "https://github.com/sangpire"
+  },
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "inputs": {
+    "ko": {
+      "description": "한글",
+      "launch_path": "/index.html#ko",
+      "name": "한글",
+      "types": [
+        "text",
+        "url",
+        "email"
+      ]
+    }
+  },
+  "launch_path": "/settings.html",
+  "locales": {
+    "en-US": {
+      "description": "Korean Keyboard",
+      "name": "Korean Keyboard"
+    }
+  },
+  "permissions": {
+    "input": {
+      "description": "Required for input text"
+    }
+  },
+  "role": "input",
+  "type": "privileged"
+}
